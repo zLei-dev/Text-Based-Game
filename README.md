@@ -7,8 +7,6 @@
 **Purpose:** Finals Output for CIS101  
 **Language:** C  
 
----
-
 ## 1. About the Game
 
 **Balancing Life** is a text-based life simulation game where the player must manage three main stats:
@@ -24,8 +22,6 @@ The game also includes:
 - Dynamic stat changes and summaries  
 - Work streak bonuses and bills management  
 
----
-
 ## 2. Game Objective
 
 Survive for **35 in-game days (5 weeks)**.  
@@ -36,8 +32,6 @@ If any of the following stats reach zero, the game ends:
 - **Family = 0** → Divorce Ending  
 
 If the player completes 5 weeks successfully, they unlock the **Good Ending**.
-
----
 
 ## 3. How to Play
 
@@ -50,23 +44,17 @@ If the player completes 5 weeks successfully, they unlock the **Good Ending**.
 4. Make smart choices to balance your stats.  
 5. Survive all 5 weeks to win.
 
----
-
 ## 4. Game Controls
 
 - Input numbers **(1–5)** when prompted.  
 - Press **Enter** to continue after each message.  
 - Choices affect stats positively or negatively.
 
----
-
 ## 5. System Requirements
 
 - Windows OS (uses `system("cls")` and `system("color")`)  
 - C compiler (e.g., GCC, Code::Blocks, or Dev-C++)  
 - Console capable of UTF-8 characters
-
----
 
 ## 6. Source Code Structure
 
@@ -92,7 +80,6 @@ main.c
     Controls program flow and win/loss logic.
 ```
 
----
 
 ## 7. Author’s Note
 
@@ -102,7 +89,5 @@ It demonstrates the use of:
 - Functions and modular logic  
 - Loops and user input handling  
 - Console-based interface formatting
-
----
 
 **End of File**
