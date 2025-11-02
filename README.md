@@ -53,7 +53,7 @@ If the player completes 5 weeks successfully, they unlock the **Good Ending**.
 ## 5. System Requirements
 
 - Windows OS (uses `system("cls")` and `system("color")`)  
-- C compiler (e.g., GCC, Code::Blocks, or Dev-C++)  
+- C compiler (GCC)  
 - Console capable of UTF-8 characters
 
 ## 6. Source Code Structure
