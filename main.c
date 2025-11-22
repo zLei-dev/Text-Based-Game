@@ -22,12 +22,12 @@ random events, and daily routines.
 const int WEEK5 = 35;
 
 // Game state variables
-int bills = 4;
+int bills = 5;
 int userHighscore = 0;
 
 // Player stats (default values)
-int userMoney = 5;
-int userSanity = 7;
+int userMoney = 6;
+int userSanity = 4;
 int userFamily = 5;
 
 // Achievements and streaks
@@ -100,8 +100,8 @@ int settingUI() {
 /* Reset all progress and variables */
 void clearData(int* day) {
     *day = 0;
-    userMoney = 5;
-    userSanity = 7;
+    userMoney = 6;
+    userSanity = 4;
     userFamily = 5;
     moneyChange = 0;
     sanityChange = 0;
@@ -662,7 +662,7 @@ void dayRecapUI(const int* day) {
     printf("\n");
     printf("                     Day %d Summary\n", *day);
     printf("  -------------------------------------------------------\n");
-    printf("   Money Change : %d -> %+d\n", *day, moneyChange);
+    printf("   Money Change : %d -> %+d\n", userMoney, moneyChange);
     printf("   Sanity Change: %d -> %+d\n", userSanity, sanityChange);
     printf("   Family Change: %d -> %+d\n", userFamily, familyChange);
     printf("   Bills Change: %d -> %+d\n ", bills, billsChange);
